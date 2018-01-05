@@ -19,7 +19,12 @@
         <activity android:name=".FrameAnimationActivity" />
         <activity android:name=".FillingBetweenAnimationActivity" />
         <activity android:name=".PropertyAnimationActivity" />
-        <activity android:name=".FrameAnimDemo1"></activity>
+        <activity android:name=".FrameAnimDemo1" />
+        <activity android:name=".TweenAnimAlpha" />
+        <activity android:name=".TweenAnimScale" />
+        <activity android:name=".TweenAnimTranslate" />
+        <activity android:name=".TweenAnimRotate" />
+        <activity android:name=".TweenAnimSet"></activity>
     </application>
 
 </manifest>
