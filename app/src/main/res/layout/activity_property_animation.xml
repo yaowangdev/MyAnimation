@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ehighsun.myanimation.PropertyAnimationActivity">
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/btn_case1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例1"
+        />
+    <Button
+        android:id="@+id/btn_case2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例2"
+        />
+    <Button
+        android:id="@+id/btn_case3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例3"
+        />
+    <Button
+        android:id="@+id/btn_case4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例4"
+        />
+    <Button
+        android:id="@+id/btn_case5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例5"
+        />
+    <Button
+        android:id="@+id/btn_case6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案例6"
+        />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

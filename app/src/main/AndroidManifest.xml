@@ -24,7 +24,11 @@
         <activity android:name=".TweenAnimScale" />
         <activity android:name=".TweenAnimTranslate" />
         <activity android:name=".TweenAnimRotate" />
-        <activity android:name=".TweenAnimSet"></activity>
+        <activity android:name=".TweenAnimSet" />
+        <activity android:name=".PropertyCase1" />
+        <activity android:name=".PropertyCase2" />
+        <activity android:name=".PropertyCase3" />
+        <activity android:name=".PropertyCase4"></activity>
     </application>
 
 </manifest>

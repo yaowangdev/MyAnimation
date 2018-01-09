@@ -23,8 +23,8 @@ public class TweenAnimAlpha extends AppCompatActivity implements View.OnClickLis
         ivImg = (ImageView) findViewById(R.id.iv_alpha_img);
         btnStart.setOnClickListener(this);
         btnStop.setOnClickListener(this);
-//        loadAnim1();//
-        loadAnim2();
+        loadAnim1();//
+//        loadAnim2();
     }
 
     private void loadAnim1() {

@@ -22,17 +22,17 @@ public class FrameAnimDemo1 extends AppCompatActivity implements View.OnClickLis
         ivImage = (ImageView) findViewById(R.id.iv_anim_image);
         btnStart.setOnClickListener(this);
         btnStop.setOnClickListener(this);
-//        setFrameAnim1();
+        setFrameAnim1();
 //        setFrameAnim2();
-        setFrameAnim3();//java代码
+//        setFrameAnim3();//java代码
     }
 
 
 
 
     private void setFrameAnim1() {
-        ivImage.setBackgroundResource(R.drawable.frame_anim1);
-        animationDrawable = (AnimationDrawable) ivImage.getBackground();
+        ivImage.setImageResource(R.drawable.frame_anim1);
+        animationDrawable = (AnimationDrawable) ivImage.getDrawable();
 
     }
 
